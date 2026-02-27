@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /webhelp/
+
+Sitemap: https://www.ewkasql.pl/sitemap.xml

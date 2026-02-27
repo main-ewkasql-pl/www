@@ -1,0 +1,19 @@
+{
+  "name": "EwkaSQL — Oprogramowanie Finansowo-Księgowe",
+  "short_name": "EwkaSQL",
+  "description": "System finansowo-księgowy do prowadzenia pełnej ewidencji księgowej i zarządczej przedsiębiorstwa.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#1e5a5f",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "/img/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

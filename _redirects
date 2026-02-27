@@ -1,0 +1,5 @@
+# Netlify rewrites for external WebHelp docs
+/webhelp  /webhelp/  301!
+/webhelp/  http://9e168db1-b44b-42b0-8e36-4be31b5ab1f7.ewkasql.pl/webhelp/  200!
+/webhelp/index.html  http://9e168db1-b44b-42b0-8e36-4be31b5ab1f7.ewkasql.pl/webhelp/index.html  200!
+/webhelp/*  http://9e168db1-b44b-42b0-8e36-4be31b5ab1f7.ewkasql.pl/webhelp/:splat  200!
