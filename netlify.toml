@@ -1,24 +1,8 @@
 [build]
   publish = "."
 
-# Canonical host + HTTPS
-[[redirects]]
-  from = "https://ewkasql.pl/*"
-  to = "https://www.ewkasql.pl/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://ewkasql.pl/*"
-  to = "https://www.ewkasql.pl/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.ewkasql.pl/*"
-  to = "https://www.ewkasql.pl/:splat"
-  status = 301
-  force = true
+# Host canonicalization is handled in Netlify domain settings
+# (set either www.ewkasql.pl or ewkasql.pl as Primary domain there).
 
 [[headers]]
   for = "/*"
