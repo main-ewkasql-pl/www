@@ -1,2 +1,4 @@
-# Netlify rewrites for external WebHelp docs
+# REDIRECTS
+/webhelp /webhelp/index.html
+# REWRITES
 /webhelp/*   http://9e168db1-b44b-42b0-8e36-4be31b5ab1f7.ewkasql.pl/webhelp/:splat  200!
